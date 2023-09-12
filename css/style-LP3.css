@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Posterama 2001 W04 Regular",sans-serif;
+    color: #333;
+    background-color: blanchedalmond;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    
+}
+
+/* Estilos do cabeçalho */
+.header {
+    text-align: center;
+    background-image: url('header-image.jpg');
+    background-size: cover;
+    padding: 100px 0;
+    color: #fff;
+}
+
+.header h1 {
+    font-size: 36px;
+    margin: 20px 0;
+}
+
+.header p {
+    font-size: 18px;
+}
+
+
+.classes {
+    background-color: blanchedalmond;
+    padding: 20px;
+}
+
+.classes h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.class {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.class img {
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+}
+
+.class h3 {
+    font-size: 20px;
+    margin: 0;
+}
+
+.testimonials {
+    background-color: blanchedalmond;
+    padding: 20px;
+}
+
+.testimonials h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.testimonial {
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.testimonial p {
+    font-size: 16px;
+    margin: 0;
+}
+
+.testimonial .author {
+    font-size: 14px;
+    text-align: right;
+}
+
+.about {
+    padding: 20px;
+}
+
+.about h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.contact {
+    background-color: blanchedalmond;;
+    padding: 20px;
+}
+
+.contact h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    font-size: 16px;
+    margin: 0;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
+}
