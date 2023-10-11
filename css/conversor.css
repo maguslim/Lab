@@ -1,0 +1,57 @@
+body{
+    box-sizing: border-box;
+}
+
+.input-group{
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.form-check-input{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.form-check{
+    margin: 5px 0px 5px 0px;
+}
+input{
+
+    margin: 5px 0px 5px 0px;
+
+}
+
+input:focus{
+    border-radius: 16px;
+}
+
+.container{
+    margin: 40px 0 40px 0;
+    min-height: 100vh; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+    background-color: #3949AB;
+    border-radius: 15px;
+}
+
+.container h1 {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+
+button{
+    margin: 5px 0px 5px 0px;
+}
+
+button:hover{
+    transition:ease .5s;
+}
+
+button:focus{
+    border-radius: 16px;
+}
