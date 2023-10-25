@@ -50,7 +50,7 @@ function toggleTimer() {
 }
 
 function updateTimer() {
-    seconds += 10;
+    seconds += 1;
     if (seconds === 60) {
         minutes++;
         seconds = 0;
