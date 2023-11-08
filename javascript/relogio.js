@@ -1,9 +1,9 @@
 function time()
 {
 today=new Date();
-h=today.getHours();
-m=today.getMinutes();
-s=today.getSeconds();
+h=today.getHours().toString().padStart(2, '0');
+m=today.getMinutes().toString().padStart(2, '0');
+s=today.getSeconds().toString().padStart(2, '0');
 
 document.querySelector('#horas').innerHTML=h
 separator.textContent = ":"
