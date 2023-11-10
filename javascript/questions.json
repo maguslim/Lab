@@ -1,0 +1,41 @@
+[
+
+    {
+        "question":"Dentro de qual elemento HTML colocamos o JavaScript??",
+        "choice1": "script",
+        "choice2": "javascript",
+        "choice3": "js",
+        "choice4": "scripting",
+        "answer": "1"
+    },
+    {
+        "question":"Qual é a sintaxe correta para se referir a um script externo chamado 'xxx.js'?",
+        "choice1": "script href='xxx.js'",
+        "choice2": "script name='xxx.js'",
+        "choice3": "script src='xxx.js'",
+        "choice4": "script file='xxx.js'",
+        "answer": "3"
+    },
+    {
+        "question":"Como você escreve 'Hello World' em uma caixa de alerta?",
+        "choice1": "msgBox('Hello World');",
+        "choice2": "alertBox('Hello World');",
+        "choice3": "msg('Hello World');",
+        "choice4": "alert('Hello World');",
+        "answer": "4"
+    },
+
+    {
+
+        "question": "Observe o seguinte trecho de código-fonte em \nJavaScript:\nconst array = [Um, Dois, Tres];\narray.unshift(Tres);\narray.splice(-1);\nO valor final do array é:",
+        "choice1": "[“Um”];",
+        "choice2": "[“Um”, “Dois”]; ",
+        "choice3": "[“Um”, “Tres”, “Tres”]; ",
+        "choice4": "[“Tres”, “Um”, “Dois”].",
+        "answer": "4"
+
+    }
+
+]
+
+
